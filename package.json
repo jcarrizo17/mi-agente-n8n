@@ -1,0 +1,16 @@
+{
+  "name": "mi-agente-n8n",
+  "version": "1.0.0",
+  "description": "Agente simple con n8n",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start",
+    "build": "echo 'No build required'"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
