@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:22-alpine
 
 # Instalar n8n globalmente
 RUN npm install -g n8n
